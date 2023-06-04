@@ -1,0 +1,63 @@
+<!--
+* Autor: Hasley David Jimenez Basilio
+* E-mail: hjimenezb21@curnvirtual.edu.co
+* Seudonimo: RIGEL-JB
+* Carrousel de frases con Bootstrap!
+* 
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Carrousel de Frases</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+<!-- Estructura de contenido del carousel -->
+ <section class="home">
+  <div id="carousel" class="carousel slide" data-ride="carousel">
+  <div class="carousel-controls">
+    <ol class="carousel-indicators">
+      <li data-target="#carousel" data-slide-to="0" class="active" style="background-image:url('img/slide-1.jpg')"></li>
+      <li data-target="#carousel" data-slide-to="1" style="background-image:url('img/slide-2.jpg')"></li>
+      <li data-target="#carousel" data-slide-to="2" style="background-image:url('img/slide-3.jpg')"></li>
+      
+    </ol>
+    <a class="carousel-control-prev" href="#carousel" role="button" data-slide="prev">
+     <img src="img/left-arrow.svg" alt="Prev"> 
+  </a>
+  <a class="carousel-control-next" href="#carousel" role="button" data-slide="next">
+    <img src="img/right-arrow.svg" alt="Next">
+  </a>
+  </div>
+<!-- Primer item del carousel -->
+  <div class="carousel-inner">
+    <div class="carousel-item active" style="background-image:url('img/slide-1.jpg')">
+      <div class="container">
+         <h2>Sweet Heart!</h2>
+         <p>"Hotcake with love"</p>
+      </div>
+    </div>
+<!-- Segundo item del carousel -->
+    <div class="carousel-item" style="background-image:url('img/slide-2.jpg')">
+      <div class="container">
+         <h2>Strawberry Desserts!</h2>
+         <p>"We love your palate"</p>
+      </div>
+    </div>
+<!-- Tercer item del carousel -->
+    <div class="carousel-item" style="background-image:url('img/slide-3.jpg')">
+      <div class="container">
+         <h2>Colorful Muffins!</h2>
+         <p>"Explosion of creams of emotion"</p>
+      </div>
+    </div>
+  </div>
+</div>
+ </section>
+<!-- Importar la libreria script de Bootstrap! -->
+<script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
